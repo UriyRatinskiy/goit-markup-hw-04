@@ -399,10 +399,25 @@ margin-bottom: 72px;
     align-items: center;
     width:104px;
     height: 56px;
+    fill: #8E8F99;;
+
 }
+.customers-list-icon:hover,
+ .customers-list-icon:focus,
+ .ccustomers-list-icon:active 
+  {
+   fill: #4D5AE5;
+}
+  
 
 
-
+ .customers-list-item:hover,
+ .customers-list-item:focus,
+ .customers-list-item:active  {
+    border: 1px solid #4D5AE5;;
+    border-radius: 4px;
+}
+ 
 /* footer */
 .footer-text {
     background-color: var(--NAVY-BLUE);
